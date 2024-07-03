@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array-Methods</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Array Methods</h1><hr><br>
+        <div class="input">
+            <input type="number" id="number1" placeholder="Enter number 1">
+            <input type="number" id="number2" placeholder="Enter number 2">
+            <input type="number" id="number3" placeholder="Enter number 3">
+            <input type="number" id="number4" placeholder="Enter number 4">
+            <input type="number" id="number5" placeholder="Enter number 5">
+        </div>
+        <div class="method">
+            <select id="methodSelect">
+                <option>--Select Option--</option>
+                <option value="filtermethod">Filter-Method</option>
+                <option value="mapmethod">Map-Method</option>
+                <option value="sortmethod">Sort-Method</option>
+                <option value="reducemethod">Reduce-Method</option>
+                <option value="reversemethod">Reverse-Mehtod</option>
+                <option value="findmethod">Find-Method</option>
+                <option value="Includemethod">Includes</option>
+            </select>
+            <button onclick="applyMethod()">Apply</button>
+        </div>
+        <div class="output">
+            <h2>Result</h2>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="array.js"></script>
+</body>
+</html>
